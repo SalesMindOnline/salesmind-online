@@ -1,15 +1,16 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #0a0a0a;
-  --surface: #111111;
-  --surface2: #1a1a1a;
-  --border: #2a2a2a;
-  --accent: #e8ff00;
-  --accent2: #ff6b00;
-  --text: #f0f0f0;
-  --muted: #666;
-  --font-display: 'Bebas Neue', sans-serif;
+  --bg: #ffffff;
+  --surface: #f8f9fb;
+  --surface2: #eef1f5;
+  --border: #e2e6ed;
+  --accent: #1a73e8;
+  --accent2: #0d47a1;
+  --accent-light: #e8f0fe;
+  --text: #1a1a2e;
+  --muted: #6b7280;
+  --font-display: 'DM Sans', sans-serif;
   --font-body: 'DM Sans', sans-serif;
   --font-mono: 'DM Mono', monospace;
 }
@@ -30,4 +31,4 @@ body {
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
 
-::selection { background: var(--accent); color: #000; }
+::selection { background: var(--accent); color: #fff; }
