@@ -258,9 +258,8 @@ export default function App() {
 
       {/* Footer */}
       <footer style={styles.footer}>
-        <p>© 2025 SalesMindOnline · Built by <strong>Shah Imrul Huq Anupam</strong></p>
-        <p style={{ color: "var(--muted)", fontSize: 12, marginTop: 4 }}>Author · B2B Sales, Simplified! · salesmind.online</p>
-      </footer>
+        <p>Copyright © 2026 - SalesMind.Online</p>
+        </footer>
     </div>
   );
 }
